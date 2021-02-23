@@ -1,5 +1,5 @@
 <?php
-case (preg_match('/image|audio|video/',$typeMessage) ? true : false) :
+case '(preg_match('/image|audio|video/',$typeMessage) ? true : false)' :
     $response = $bot->getMessageContent($idMessage);
     if ($response->isSucceeded()) {
         // คำสั่ง getRawBody() ในกรณีนี้ จะได้ข้อมูลส่งกลับมาเป็น binary 
