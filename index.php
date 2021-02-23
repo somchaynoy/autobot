@@ -9,7 +9,7 @@ $channel_token='8OePlDix8JOWu/AFFezoV7G5n2TgAhwy6UC4YYwB+ZgEn4tI5zBsUllBo3RyicuT
 $channel_secret='7892716414d782ce55cb0076ed4d536b';
 
 //Get message
-$content=file_get_contents('php;//input');
+$content=file_get_contents('php://input');
 $events=json_decode($content, true);
 
 if(!is_null($events['events'])){
