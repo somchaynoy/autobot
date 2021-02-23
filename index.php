@@ -26,7 +26,7 @@ if(!is_null($events['events'])){
 				
 				case 'a' :
 					//Get
-					$replyToken=$event['replyToken'];
+					$respMessage=$event['replyToken'];
 		
 					//Sticker
 					$packageID=1;
