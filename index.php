@@ -48,7 +48,7 @@ if(!is_null($events['events'])){
 			default:
 				break;
 		}
-		$httpClient=new CurHTTPClient($channel_token);
+		$httpClient=new CurlHTTPClient($channel_token);
 		$bot=new LINEBot($httpClient, array('ChannelSecret'=> $channel_secret));
 		
 		$textMessageBuilder= new TextMessageBuilder($respMessage);
