@@ -17,12 +17,12 @@ if(!is_null($events['events'])){
 	foreach($events['events']as $event){
 		
 	//Line API send
-	if($event['type']=='message' && $event['message']['type']=='test'){
+	if($event['type']=='message' && $event['message']['type']=='text'){
 		
 		//Get
 		$replyToken=$event['replyToken'];
 		
-		switch($event['message']['test']){
+		switch($event['message']['text']){
 				
 			case 'a' :
 					$respMessage='aa';
