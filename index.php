@@ -25,7 +25,12 @@ if(!is_null($events['events'])){
 		switch($event['message']['text']){
 				
 				case 'a' :
-					$respMessage='So many of my smile begin with you – รอยยิ้มส่วนใหญ่ของฉันเกิดขึ้นเพราะคุณ';
+					//Get
+					$replyToken=$event['replyToken'];
+		
+					//Sticker
+					$packageID=1;
+					$stickerID=410;
 				break;
 				case 'b' :
 					$respMessage='It is not an attitude; it is the way I am – ไม่ใช่เพราะวิธีคิดแตกต่าง แต่เพราะตัวตนฉันเป็นแบบนี้';
