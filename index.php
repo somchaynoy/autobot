@@ -25,25 +25,25 @@ if(!is_null($events['events'])){
 		switch($event['message']['text']){
 				
 			case 'a' :
-					$respMessage='aa';
+					$respMessage='So many of my smile begin with you – รอยยิ้มส่วนใหญ่ของฉันเกิดขึ้นเพราะคุณ';
 				break;
 				case 'b' :
-					$respMessage='bb';
+					$respMessage='It is not an attitude; it is the way I am – ไม่ใช่เพราะวิธีคิดแตกต่าง แต่เพราะตัวตนฉันเป็นแบบนี้';
 				break; 
 				case 'c' :
-					$respMessage='cc';
+					$respMessage='Every story is beautiful, but ours if my favorite – ทุกเรื่องราวล้วนสวยงาม แต่เรื่องราวของเราคือเรื่องโปรดของฉัน';
 				break; 
 				case 'd' :
-					$respMessage='dd';
+					$respMessage='7 Billion Smiles but yours is my No.1 – บนโลกมี 7 พันล้านรอยยิ้ม แต่รอยยิ้มคุณคือที่หนึ่งของฉัน';
 				break;
 				case 'e' :
-					$respMessage='ee';
+					$respMessage='Stay strong the weekend is coming – เข้มแข็งไว้ สุดสัปดาห์กำลังจะมาถึงแล้ว';
 				break;
 				case 'f' :
-					$respMessage='ff';
+					$respMessage='I like my coffee how I like myself: Dark, bitter, and to hot for you. – ฉันชอบดื่มกาแฟ แบบที่เป็นตัวฉัน เข้มข้นและร้อนกรุ่นสำหรับคุณ';
 				break;
 				case 'g' :
-					$respMessage='gg';
+					$respMessage='If you can’t love yourself, how in the hell you gonna love somebody else? – ถ้าไม่รัก ไม่แคร์ตัวเอง แล้วจะไปรักคนอื่นได้ไง';
 				break;
 			default:
 				break;
