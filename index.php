@@ -27,11 +27,11 @@ if(!is_null($events['events'])){
 				
 				case 'a' :
 					//Get
-		$replyToken=$event['replyToken'];
+					$replyToken=$event['replyToken'];
 		
-		//Sticker
-		$packageID=1;
-		$stickerID=410;
+					//Sticker
+					$packageID=1;
+					$stickerID=410;
 				break;
 				case 'b' :
 					$respMessage='It is not an attitude; it is the way I am – ไม่ใช่เพราะวิธีคิดแตกต่าง แต่เพราะตัวตนฉันเป็นแบบนี้';
