@@ -5,10 +5,10 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
  
 // include composer autoload
-//require_once 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
  
 // การตั้งเกี่ยวกับ bot
-require_once '/bot_settings.php';
+//require_once '/bot_settings.php';
  
 // กรณีมีการเชื่อมต่อกับฐานข้อมูล
 //require_once("dbconnect.php");
