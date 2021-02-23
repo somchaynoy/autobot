@@ -25,8 +25,7 @@ if(!is_null($events['events'])){
 		switch($event['message']['test']){
 				
 				case 'a'
-					$packageID=1;
-					$stickerID=410;
+					$respMessage='aa';
 				break;
 				case 'b'
 					$respMessage='bb';
