@@ -150,7 +150,7 @@ if(!is_null($events)){
                     switch ($fileType){
                         case (preg_match('/^image/',$fileType) ? true : false):
                             list($typeFile,$ext) = explode("/",$fileType);
-                            $ext = ($ext=='jpeg' || $ext=='jpg')?"jpg":$ext;
+                            //$ext = ($ext=='jpeg' || $ext=='jpg')?"jpg":$ext;
                             $fileNameSave = time().".".$ext;
                             break;
                         case (preg_match('/^audio/',$fileType) ? true : false):
