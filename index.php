@@ -2,7 +2,7 @@
 require_once('./vendor/autoload.php');
 
 use \LINE\LINEBot\HTTPClient\CurlHTTPClient;
-use |LINE\LINEBot;
+use \LINE\LINEBot;
 use \LINE\LINEBot\MessageBuilder\TextMessageBuilser;
 
 $channel_token='8OePlDix8JOWu/AFFezoV7G5n2TgAhwy6UC4YYwB+ZgEn4tI5zBsUllBo3RyicuTx5mxknthQOaNgMiDj1Oxvhu9a5tGi5f4dBuZVsKiGAdUNrL53Wc9s5wKrl/Z2S1vhR/XciGUZ0CQysHvkL4Q6wdB04t89/1O/w1cDnyilFU=';
