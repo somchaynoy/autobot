@@ -52,10 +52,10 @@ if(!is_null($events['events'])){
 		$bot=new LINEBot($httpClient, array('ChannelSecret'=> $channel_secret));
 		
 		$textMessageBuilder= new TextMessageBuilder($respMessage);
-		$response=$bot->($replyMessage, $textMessageBuilder);
+		$response=$bot->replyMessage($replyToken, $textMessageBuilder);
 						
 					
-	}
+		}
 	}
 }
 echo"OK";
