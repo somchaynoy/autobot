@@ -24,25 +24,25 @@ if(!is_null($events['events'])){
 		
 		switch($event['message']['test']){
 				
-				case 'a'
+			case 'a' :
 					$respMessage='aa';
 				break;
-				case 'b'
+				case 'b' :
 					$respMessage='bb';
-				break;
-				case 'c'
+				break; 
+				case 'c' :
 					$respMessage='cc';
-				break;
-				case 'd'
+				break; 
+				case 'd' :
 					$respMessage='dd';
 				break;
-				case 'e'
+				case 'e' :
 					$respMessage='ee';
 				break;
-				case 'f'
+				case 'f' :
 					$respMessage='ff';
 				break;
-				case 'g'
+				case 'g' :
 					$respMessage='gg';
 				break;
 			default:
