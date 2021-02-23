@@ -24,7 +24,7 @@ if(!is_null($events['events'])){
 		
 		switch($event['message']['text']){
 				
-			case 'a' :
+				case 'a' :
 					$respMessage='So many of my smile begin with you – รอยยิ้มส่วนใหญ่ของฉันเกิดขึ้นเพราะคุณ';
 				break;
 				case 'b' :
@@ -44,6 +44,28 @@ if(!is_null($events['events'])){
 				break;
 				case 'g' :
 					$respMessage='If you can’t love yourself, how in the hell you gonna love somebody else? – ถ้าไม่รัก ไม่แคร์ตัวเอง แล้วจะไปรักคนอื่นได้ไง';
+				break;
+
+				case 'A' :
+					$respMessage='Better to be hated for who I am, than loved for who I am not. ถูกเกลียดเพราะเป็นตัวของตัวเอง ยังดีกว่ามีคนรักในสิ่งที่ตัวเองไม่ได้เป็น';
+				break;
+				case 'B' :
+					$respMessage='Believe you can and you’re halfway there. เชื่อว่าคุณทำได้ คุณก็ไปได้ครึ่งทางแล้ว';
+				break; 
+				case 'C' :
+					$respMessage='Be yourself no matter whatever they say. ไม่ว่าใครจะว่ายังไง จงเป็นตัวของตัวเอง';
+				break; 
+				case 'D' :
+					$respMessage='0x100B8';
+				break;
+				case 'E' :
+					$respMessage='0x10054';
+				break;
+				case 'F' :
+					$respMessage='0x10002E';
+				break;
+				case 'G' :
+					$respMessage='0x100078';
 				break;
 			default:
 				break;
